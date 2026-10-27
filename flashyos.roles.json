@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "flashyid-spec",
-      "url": "github.com/FlashyLabs/flashyid-spec",
+      "url": "github.com/AgenteLabs/flashyid-spec",
       "default": true,
       "holds": [
         "spec",

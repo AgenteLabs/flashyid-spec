@@ -85,7 +85,7 @@ of open protocols. The human map of the whole stack is
 door — the same config-driven, dependency-free door every protocol repository in
 the estate serves — generated into `site/` by `node scripts/build-site.mjs` from
 `site.config.json` and its vendored inputs. It is committed here and, once
-deployed, is served at `https://flashylabs.github.io/flashyid-spec/` (committed
+deployed, is served at `https://agentelabs.github.io/flashyid-spec/` (committed
 as of 2026-09-29, not yet fetched).
 
 Status: draft. No independent adopter yet; the first is the gate before this is called a standard.
