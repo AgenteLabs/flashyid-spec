@@ -1,7 +1,7 @@
 # delegation/1
 
 **Status: draft.** Contract name: `delegation/1`. Nothing outside this
-repository and FlashyLabs/flashyid has adopted it; a first independent adopter
+repository and AgenteLabs/flashyid has adopted it; a first independent adopter
 is the gate before it is called a standard.
 
 ## What it is
