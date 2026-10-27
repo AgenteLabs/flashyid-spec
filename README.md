@@ -10,7 +10,7 @@ organisation → agent → sub-agent → session and can never grow on the way d
 This repository holds the spec, a JSON Schema, test vectors and a
 dependency-free checker. The implementation — an OIDC provider and the
 `@flashyid/sdk` grant kernel — lives in
-[FlashyLabs/flashyid](https://github.com/FlashyLabs/flashyid); every rule here
+[AgenteLabs/flashyid](https://github.com/AgenteLabs/flashyid); every rule here
 is seeded from it and says so.
 
 ## Quick start
@@ -72,15 +72,15 @@ a cryptographic one.
 
 ## Links
 
-- Reference implementation: [FlashyLabs/flashyid](https://github.com/FlashyLabs/flashyid) — the OIDC provider, `@flashyid/sdk` (the grant kernel this spec is seeded from), and the rail issuance, consent and grant surfaces.
+- Reference implementation: [AgenteLabs/flashyid](https://github.com/AgenteLabs/flashyid) — the OIDC provider, `@flashyid/sdk` (the grant kernel this spec is seeded from), and the rail issuance, consent and grant surfaces.
 - Sibling standards in this estate, by name: `intent/1`, `ritual/1`, `aao/0.1`, `trust/1`. A `delegation/1` root is typically the `accountableTo` of an `aao/0.1` charter.
 
 ## Where it sits in the stack
 
 `delegation/1` is the identity layer of Web 4 — the agentic internet as a stack
 of open protocols. The human map of the whole stack is
-[web4](https://github.com/FlashyLabs/web4); its machine twin is
-[stack.json](https://github.com/FlashyLabs/stack.json), served at
+[web4](https://github.com/AgenteLabs/web4); its machine twin is
+[stack.json](https://github.com/AgenteLabs/stack.json), served at
 `/.well-known/stack.json`. This repository serves its own institutional front
 door — the same config-driven, dependency-free door every protocol repository in
 the estate serves — generated into `site/` by `node scripts/build-site.mjs` from
