@@ -90,4 +90,4 @@ as of 2026-09-29, not yet fetched).
 
 Status: draft. No independent adopter yet; the first is the gate before this is called a standard.
 
-Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.
+Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.

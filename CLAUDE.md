@@ -56,7 +56,7 @@ node vendor-delegation.mjs check vectors/valid/three-hop.json
   and every grant field has a row in the field-rules table.
 - The README quick start command is run and must exit 0; the README's last
   line is the Apache-2.0 licence line; a LICENSE file exists and carries the
-  Apache License with `Copyright 2026 Flashy Labs`.
+  Apache License with `Copyright 2026 Agente Labs`.
 - The CLI exits 0 on a valid chain, 1 on refusal, 2 on usage or an unreadable
   file — never 0 for anything but a verified chain.
 
@@ -84,7 +84,7 @@ Spec-first order for any change: SPEC.md → schema → checker → vectors → 
 
 **No secret in a file, a repo, or an artifact.** Secret Manager only.
 
-**The licence is declared once**, in `tools/estate-licences.mjs` in flashyos, which names this repository Apache-2.0 (holder Flashy Labs); the committed `LICENSE` is that grant. Do not decide this repository's licence inside it.
+**The licence is declared once**, in `tools/estate-licences.mjs` in flashyos, which names this repository Apache-2.0 (holder Agente Labs); the committed `LICENSE` is that grant. Do not decide this repository's licence inside it.
 
 **A generated file is regenerated, never hand-edited.**
 
