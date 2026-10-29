@@ -539,11 +539,11 @@ describe('documentation', () => {
 
   test('the README ends with the Apache-2.0 licence line and the LICENSE is present', () => {
     const last = readme.trimEnd().split('\n').pop();
-    assert.equal(last, 'Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.');
+    assert.equal(last, 'Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.');
     assert.ok(readdirSync(ROOT).some((f) => /^LICENSE/i.test(f)), 'a LICENSE file must exist');
     const licence = readFileSync(join(ROOT, 'LICENSE'), 'utf8');
     assert.ok(licence.includes('Apache License'), 'the LICENSE must be the Apache License');
-    assert.ok(licence.includes('Copyright 2026 Flashy Labs'), 'the LICENSE must name the holder Flashy Labs');
+    assert.ok(licence.includes('Copyright 2026 Agente Labs'), 'the LICENSE must name the holder Agente Labs');
   });
 
   test('both documents carry the draft status and the contract name', () => {
